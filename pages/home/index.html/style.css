@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    
+}
+*{
+    margin: 0px;
+}
+.section-1 *{
+    z-index: 10;
+}
+.section-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  
+
+    background-image: url('../index.html/nuvens_fundo.svg');
+    background-size: cover;
+    background-position: -620px 0px;
+    background-color: #404eed;
+    color: #fff;
+    padding-bottom: 110px;
+    
+}
+.section-1 .boneco-esquerda{
+    position: absolute;
+    bottom: 0px;
+    left: -190px;
+}
+.section-1 .boneco-direita{
+    position: absolute;
+    bottom: 0px;
+    right: -100px;
+}
+
+
+.section-1 .titulos h1{
+    font-size: 50px;
+    font-family: serif;
+    margin-bottom: 40px;
+    line-height: 40px;
+    
+}
+.section-1 .titulos p{
+    font: 20px Discord4;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.section-1 .titulos{
+    width: 800px;
+    text-align: center;
+}
+
+.section-1 .menu{
+    display: flex;
+    flex-direction: row;
+  
+}
+.section-1 nav button{
+    background-color: #fff;
+    color: black;
+    font: 14px Discord2;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.section-1 nav .menu div{
+    font: 16px discord1;
+    margin: 25px;
+}
+
+.section-1 nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 65%;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.section-1 .titulos{
+    display: flex;
+    flex-direction: column;
+}
+.section-1 .botoes{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.section-1 .botoes button svg{
+    margin-right: 7px;
+}
+.section-1 .botoes button{
+    display: flex;
+    align-items: center;
+
+    background-color: #fff;
+    outline: none;
+    border: none;
+    margin: 0px 10px;
+    font: 20px Discord2;
+    padding: 15px 35px;
+    border-radius: 50px;
+
+}
+.section-1 .botoes .escuro{
+    background-color: #23272A;
+    color: #fff;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 5em 0em;
+}
+.s2-textos{
+    width: 23em;
+    margin-left: 7em;
+}
+.s2-textos h1{
+    font: 48px 'Discord5';
+    line-height: 54px;
+}
+.s2-textos p{
+    font: 20px 'Discord4';
+    line-height: 30px;
+    color: #23272a;
+}
